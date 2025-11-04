@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ADF Mean Tables</title>
+    <link rel="stylesheet" href="../templates/adf_diag.css">
+  </head>
+  <body >
+    <div class="header">
+      <div id="screenFiller" style="background:url(../templates/NCAR.gif) top right no-repeat; border:5px solid #555;">
+        <div class="center"><h1> CAM Diagnostics</h1></div>
+          <div class="center">
+            <nav role="navigation" class="primary-navigation">
+            <ul>
+              <li><a href="../index.html">Case Home</a></li>
+              <li><a href="#">Plots &dtrif;</a>
+                <ul class="dropdown">
+                  
+                    <li><a href=../html_table/mean_tables.html> &nbsp; Tables</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_LatLon.html> &nbsp; LatLon</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_LatLon_Vector.html> &nbsp; LatLon_Vector</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_Special.html> &nbsp; Special</a></li>
+                  
+                </ul>
+              </li>
+                  <li><a href="#">Links &dtrif;</a>
+                <ul class="dropdown">
+                  <li><a href="https://www.cesm.ucar.edu">CESM</a></li>
+                  <li><a href="https://www.cesm.ucar.edu/working_groups/Atmosphere/?ref=nav">AMWG</a></li>
+                  <li><a href="https://www.cgd.ucar.edu/amp/">AMP</a></li>
+                </ul>
+              </li>
+              <li><a href="https://github.com/NCAR/ADF">About</a></li>
+              <li><a href="https://github.com/NCAR/ADF/discussions">Contact</a></li>
+            </ul>
+          </nav>
+        </div><!--center-->
+        <br>
+        <h2 style="display:inline; color:black;"> Test Case: </h2><h2 style="display:inline;">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.241</h2><h2 style="display:inline; color:black;"> - years: 1 - 40</h2><br>
+        <h2 style="display:inline; color:black;"> Baseline Case: </h2><h2 style="display:inline;">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234</h2><h2 style="display:inline; color:black;"> - years: 1 - 80</h2>
+      </div><!--screenFiller-->
+    </div><!--header-->
+
+    <div class="center">
+      <h1>AMWG Tables</h1>
+    </div>
+
+    <div style="width: 100%;">
+      <table class="big-table">
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.241.html">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.241</a></td>
+          </tr>
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234.html">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234</a></td>
+          </tr>
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_Case Comparison.html">Case Comparison</a></td>
+          </tr>
+        
+      </table><br>
+
+      <!-- Main Table HTML -->
+      <h3> b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.241 </h3>
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>variable</th>
+      <th>unit</th>
+      <th>mean</th>
+      <th>sample size</th>
+      <th>standard dev.</th>
+      <th>standard error</th>
+      <th>95% CI</th>
+      <th>trend</th>
+      <th>trend p-value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LANDFRAC</td>
+      <td>fraction</td>
+      <td>0.292</td>
+      <td>40</td>
+      <td>1.67e-16</td>
+      <td>4.16e-18</td>
+      <td>8.16e-18</td>
+      <td>0.292 +  0 t</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <td>OCNFRAC</td>
+      <td>fraction</td>
+      <td>0.666</td>
+      <td>40</td>
+      <td>0.00217</td>
+      <td>5.42e-05</td>
+      <td>0.000106</td>
+      <td>0.669 + -0.000152 t</td>
+      <td>3.18e-10</td>
+    </tr>
+    <tr>
+      <td>SST</td>
+      <td>K</td>
+      <td>292.355</td>
+      <td>40</td>
+      <td>0.212</td>
+      <td>0.005</td>
+      <td>0.01</td>
+      <td>292.607 + -0.012 t</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>TS</td>
+      <td>K</td>
+      <td>287.689</td>
+      <td>40</td>
+      <td>0.313</td>
+      <td>0.008</td>
+      <td>0.015</td>
+      <td>288.149 + -0.022 t</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>SWCF</td>
+      <td>W/m2</td>
+      <td>-46.432</td>
+      <td>40</td>
+      <td>0.444</td>
+      <td>0.011</td>
+      <td>0.022</td>
+      <td>-46.243 + -0.009 t</td>
+      <td>0.136</td>
+    </tr>
+    <tr>
+      <td>LWCF</td>
+      <td>W/m2</td>
+      <td>24.374</td>
+      <td>40</td>
+      <td>0.116</td>
+      <td>0.003</td>
+      <td>0.006</td>
+      <td>24.350 +  0.001 t</td>
+      <td>0.470</td>
+    </tr>
+    <tr>
+      <td>PRECT</td>
+      <td>m/s</td>
+      <td>3.51e-08</td>
+      <td>40</td>
+      <td>2.86e-10</td>
+      <td>7.14e-12</td>
+      <td>1.4e-11</td>
+      <td>3.55e-08 + -1.8e-11 t</td>
+      <td>1.11e-07</td>
+    </tr>
+    <tr>
+      <td>TAUX</td>
+      <td>N/m2</td>
+      <td>-0.00616</td>
+      <td>40</td>
+      <td>0.000797</td>
+      <td>1.99e-05</td>
+      <td>3.9e-05</td>
+      <td>-0.00663 +  2.3e-05 t</td>
+      <td>0.0352</td>
+    </tr>
+    <tr>
+      <td>TAUY</td>
+      <td>N/m2</td>
+      <td>-0.00188</td>
+      <td>40</td>
+      <td>0.000677</td>
+      <td>1.69e-05</td>
+      <td>3.32e-05</td>
+      <td>-0.00173 + -7.76e-06 t</td>
+      <td>0.416</td>
+    </tr>
+    <tr>
+      <td>TGCLDLWP</td>
+      <td>kg/m2</td>
+      <td>0.0502</td>
+      <td>40</td>
+      <td>0.00059</td>
+      <td>1.47e-05</td>
+      <td>2.89e-05</td>
+      <td>0.0503 + -5.54e-06 t</td>
+      <td>0.506</td>
+    </tr>
+    <tr>
+      <td>PSL</td>
+      <td>Pa</td>
+      <td>101107</td>
+      <td>40</td>
+      <td>4.038</td>
+      <td>0.101</td>
+      <td>0.198</td>
+      <td>101111.882 + -0.235 t</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>TREFHT</td>
+      <td>K</td>
+      <td>286.854</td>
+      <td>40</td>
+      <td>0.314</td>
+      <td>0.008</td>
+      <td>0.015</td>
+      <td>287.313 + -0.022 t</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+  </body>
+</html>
